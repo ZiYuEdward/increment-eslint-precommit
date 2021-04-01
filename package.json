@@ -1,0 +1,28 @@
+{
+  "name": "increment-eslint",
+  "version": "1.0.0",
+  "description": "eslint plugin to check increment code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "eslint",
+    "husky"
+  ],
+  "bin": {
+    "precommit-file": "./bin/index.js",
+    "commitmsg": "./bin/commitmsg.js",
+    "precommit-newline": "./bin/newline.js"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "chalk": "^4.1.0",
+    "eslint": "^7.20.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "mz": "^2.7.0"
+  },
+  "author": "ziyu",
+  "license": "ISC"
+}
