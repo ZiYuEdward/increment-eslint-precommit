@@ -11,7 +11,6 @@ const {ESLint} = require('eslint');
 const chalk = require('chalk');
 const {log, error} = console;
 const contentReg = /(@@[ -\\d]*@@)([\w\W]*?)(?=@@|$)/g;
-const clientSrc = /.*src\/app\/client.*/g;
 
 /**
  *处理eslint返回数据，打印错误
@@ -133,7 +132,7 @@ try {
       process.exit(0);
     }
     const diffFileArray = stdout.split('\n').filter((diffFile) => (
-      /(\.js|\.jsx)(\n|$)/gi.test(diffFile) && clientSrc.test(diffFile)
+      /(\.js|\.jsx)(\n|$)/gi.test(diffFile)
     ));
     handleDiffFileAndRows(diffFileArray);
   });
