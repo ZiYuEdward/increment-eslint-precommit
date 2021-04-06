@@ -13,7 +13,7 @@ const keywords = ['Feedback', 'Ticket', 'Feature', 'Task', 'Bug', 'Subtask'];
  */
 function changeCommitMsg(changdCommit) {
   fs.writeFileSync(process.env.HUSKY_GIT_PARAMS, changdCommit);
-  log(chalk.yellow(`commit msg已被修改为: ${changdCommit}`));
+  log(chalk.yellow(`commit msg has been changed to : ${changdCommit}`));
   process.exit(0);
 }
 

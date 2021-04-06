@@ -4,20 +4,9 @@
   "globals": {
     "store": true,
     "router": true,
-    "reflex": true,
-    "projects": true,
-    "isAdmin": true,
-    "payModules": true,
-    "ACCOUNT": true,
-    "currentProjectId": true,
-    "deployType": true,
-    "msg": true,
-    "nav": true,
     "__DEBUG__": true,
     "__DEVELOPMENT__": true,
     "__GLOBAL__": true,
-    "DATracker": true,
-    "NEJsbridge": true
   },
   "rules": {
     "import/no-unresolved": "off",
