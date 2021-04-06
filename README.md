@@ -35,7 +35,7 @@ npm i husky@4.3.8 lint-staged@10.5.4 increment-eslint -D
 ```
 #### precommit-file
 
-will check all problems in changed files
+will check all problems in increased or changed files
 
 #### precommit-newline
 
