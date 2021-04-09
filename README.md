@@ -1,4 +1,4 @@
-## Increment eslint
+## Increment eslint precommit
 ----
 
 **check increasing files or lines problems base on eslint when git precommit**
@@ -8,7 +8,7 @@
 Requires husky and lint-stage for precommit
 
 ```
-npm i husky@4.3.8 lint-staged@10.5.4 increment-eslint -D
+npm i husky@4.3.8 lint-staged@10.5.4 increment-eslint-precommit -D
 ```
 
 ### Usage
