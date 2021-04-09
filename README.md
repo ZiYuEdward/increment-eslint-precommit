@@ -1,7 +1,7 @@
 ## Increment eslint
 ----
 
-**check increasing files or lines problems with eslint when git precommit**
+**check increasing files or lines problems base on eslint when git precommit**
 
 ### Installation
 
