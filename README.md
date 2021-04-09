@@ -42,7 +42,7 @@ will check all problems in increased or changed files
 only check increased or changed lines's problems
 
 #### eslintConfig and eslintIgnore
-put .eslintrc.json and .eslintignore in root path or it will use [default config]()
+put .eslintrc.json and .eslintignore in root path or it will use [default config](https://github.com/ZiYuEdward/increment-eslint-precommit/blob/master/.eslintrc.json)
 
 ${process.cwd()}/.eslintrc.json
 
